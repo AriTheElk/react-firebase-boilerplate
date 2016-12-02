@@ -5,15 +5,15 @@ import { Row, Column } from 'hedron';
 import checkAuth from '../../components/requireAuth';
 import Title from '../../components/Title';
 
-const ProtectedPage = () => {
+const AccountPage = () => {
   return (
     <Row>
       <Column>
         <Title>You will only see this page if you are logged in</Title>
-        <p>GitHub Token: {localStorage.token}</p>
+        <p>GitHub Token: CLICK TO SHOW</p>
       </Column>
     </Row>
   );
 };
 
-export default checkAuth(ProtectedPage);
+export default checkAuth(AccountPage);
