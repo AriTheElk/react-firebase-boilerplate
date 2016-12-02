@@ -1,4 +1,6 @@
-![React Firebase Boilerplate Demo](http://imgur.com/e4TbOxj.gif)
+<p align="center">
+  <img src='http://imgur.com/e4TbOxj.gif' alt='React Firebase Boilerplate Demo'/>
+</p>
 
 The React Firebase Boilerplate was originally based on the [react-hot-redux-firebase-starter](https://github.com/douglascorrea/react-hot-redux-firebase-starter). The structure was changed durastically when creating this, so I decided to start an entirely new boilerplate based off the fork.
 
