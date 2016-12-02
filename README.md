@@ -2,6 +2,8 @@
   <img src='http://imgur.com/e4TbOxj.gif' alt='React Firebase Boilerplate Demo'/>
 </p>
 
+[![David](https://img.shields.io/david/JSBros/react-firebase-boilerplate.svg)](https://github.com/JSBros/react-firebase-boilerplate/issues) [![label](https://img.shields.io/github/issues-raw/JSBros/react-firebase-boilerplate/website.svg)](https://github.com/JSBros/react-firebase-boilerplate/issues) [![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/jsbros/react-firebase-boilerplate.svg)](https://github.com/JSBros/react-firebase-boilerplate/pulls?q=is%3Apr+is%3Aclosed) [![Slack Status](https://slackin-xtuseyimsc.now.sh/badge.svg)](https://slackin-xtuseyimsc.now.sh/)
+
 The React Firebase Boilerplate was originally based on the [react-hot-redux-firebase-starter](https://github.com/douglascorrea/react-hot-redux-firebase-starter). The structure was changed durastically when creating this, so I decided to start an entirely new boilerplate based off the fork.
 
 ## Stack
