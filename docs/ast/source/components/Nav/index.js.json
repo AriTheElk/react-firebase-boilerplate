@@ -1,0 +1,203 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 158,
+  "loc": {
+    "start": {
+      "line": 1,
+      "column": 0
+    },
+    "end": {
+      "line": 11,
+      "column": 0
+    }
+  },
+  "sourceType": "module",
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "start": 0,
+      "end": 39,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 39
+        }
+      },
+      "specifiers": [
+        {
+          "type": "ImportDefaultSpecifier",
+          "start": 7,
+          "end": 13,
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 7
+            },
+            "end": {
+              "line": 1,
+              "column": 13
+            }
+          },
+          "local": {
+            "type": "Identifier",
+            "start": 7,
+            "end": 13,
+            "loc": {
+              "start": {
+                "line": 1,
+                "column": 7
+              },
+              "end": {
+                "line": 1,
+                "column": 13
+              }
+            },
+            "name": "styled"
+          }
+        }
+      ],
+      "importKind": "value",
+      "source": {
+        "type": "Literal",
+        "start": 19,
+        "end": 38,
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 19
+          },
+          "end": {
+            "line": 1,
+            "column": 38
+          }
+        },
+        "value": "styled-components",
+        "rawValue": "styled-components",
+        "raw": "'styled-components'"
+      }
+    },
+    {
+      "type": "ExportDefaultDeclaration",
+      "start": 41,
+      "end": 157,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 0
+        },
+        "end": {
+          "line": 10,
+          "column": 2
+        }
+      },
+      "declaration": {
+        "type": "TaggedTemplateExpression",
+        "start": 56,
+        "end": 156,
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 15
+          },
+          "end": {
+            "line": 10,
+            "column": 1
+          }
+        },
+        "tag": {
+          "type": "MemberExpression",
+          "start": 56,
+          "end": 66,
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 15
+            },
+            "end": {
+              "line": 3,
+              "column": 25
+            }
+          },
+          "object": {
+            "type": "Identifier",
+            "start": 56,
+            "end": 62,
+            "loc": {
+              "start": {
+                "line": 3,
+                "column": 15
+              },
+              "end": {
+                "line": 3,
+                "column": 21
+              }
+            },
+            "name": "styled"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 63,
+            "end": 66,
+            "loc": {
+              "start": {
+                "line": 3,
+                "column": 22
+              },
+              "end": {
+                "line": 3,
+                "column": 25
+              }
+            },
+            "name": "nav"
+          },
+          "computed": false
+        },
+        "quasi": {
+          "type": "TemplateLiteral",
+          "start": 66,
+          "end": 156,
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 25
+            },
+            "end": {
+              "line": 10,
+              "column": 1
+            }
+          },
+          "expressions": [],
+          "quasis": [
+            {
+              "type": "TemplateElement",
+              "start": 67,
+              "end": 155,
+              "loc": {
+                "start": {
+                  "line": 3,
+                  "column": 26
+                },
+                "end": {
+                  "line": 10,
+                  "column": 0
+                }
+              },
+              "value": {
+                "raw": "\n  > * {\n    margin: 0 5px 5px 0;\n  }\n  > *:last-child {\n    margin-right: inherit;\n  }\n",
+                "cooked": "\n  > * {\n    margin: 0 5px 5px 0;\n  }\n  > *:last-child {\n    margin-right: inherit;\n  }\n"
+              },
+              "tail": true
+            }
+          ]
+        },
+        "leadingComments": [],
+        "trailingComments": []
+      }
+    }
+  ]
+}

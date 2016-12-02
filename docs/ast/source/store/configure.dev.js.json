@@ -1,0 +1,1071 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 617,
+  "loc": {
+    "start": {
+      "line": 1,
+      "column": 0
+    },
+    "end": {
+      "line": 18,
+      "column": 0
+    }
+  },
+  "sourceType": "module",
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "start": 0,
+      "end": 62,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 62
+        }
+      },
+      "specifiers": [
+        {
+          "type": "ImportSpecifier",
+          "start": 9,
+          "end": 20,
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 9
+            },
+            "end": {
+              "line": 1,
+              "column": 20
+            }
+          },
+          "imported": {
+            "type": "Identifier",
+            "start": 9,
+            "end": 20,
+            "loc": {
+              "start": {
+                "line": 1,
+                "column": 9
+              },
+              "end": {
+                "line": 1,
+                "column": 20
+              }
+            },
+            "name": "createStore"
+          },
+          "local": {
+            "type": "Identifier",
+            "start": 9,
+            "end": 20,
+            "loc": {
+              "start": {
+                "line": 1,
+                "column": 9
+              },
+              "end": {
+                "line": 1,
+                "column": 20
+              }
+            },
+            "name": "createStore"
+          }
+        },
+        {
+          "type": "ImportSpecifier",
+          "start": 22,
+          "end": 37,
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 22
+            },
+            "end": {
+              "line": 1,
+              "column": 37
+            }
+          },
+          "imported": {
+            "type": "Identifier",
+            "start": 22,
+            "end": 37,
+            "loc": {
+              "start": {
+                "line": 1,
+                "column": 22
+              },
+              "end": {
+                "line": 1,
+                "column": 37
+              }
+            },
+            "name": "applyMiddleware"
+          },
+          "local": {
+            "type": "Identifier",
+            "start": 22,
+            "end": 37,
+            "loc": {
+              "start": {
+                "line": 1,
+                "column": 22
+              },
+              "end": {
+                "line": 1,
+                "column": 37
+              }
+            },
+            "name": "applyMiddleware"
+          }
+        },
+        {
+          "type": "ImportSpecifier",
+          "start": 39,
+          "end": 46,
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 39
+            },
+            "end": {
+              "line": 1,
+              "column": 46
+            }
+          },
+          "imported": {
+            "type": "Identifier",
+            "start": 39,
+            "end": 46,
+            "loc": {
+              "start": {
+                "line": 1,
+                "column": 39
+              },
+              "end": {
+                "line": 1,
+                "column": 46
+              }
+            },
+            "name": "compose"
+          },
+          "local": {
+            "type": "Identifier",
+            "start": 39,
+            "end": 46,
+            "loc": {
+              "start": {
+                "line": 1,
+                "column": 39
+              },
+              "end": {
+                "line": 1,
+                "column": 46
+              }
+            },
+            "name": "compose"
+          }
+        }
+      ],
+      "importKind": "value",
+      "source": {
+        "type": "Literal",
+        "start": 54,
+        "end": 61,
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 54
+          },
+          "end": {
+            "line": 1,
+            "column": 61
+          }
+        },
+        "value": "redux",
+        "rawValue": "redux",
+        "raw": "'redux'"
+      }
+    },
+    {
+      "type": "ImportDeclaration",
+      "start": 63,
+      "end": 117,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 0
+        },
+        "end": {
+          "line": 2,
+          "column": 54
+        }
+      },
+      "specifiers": [
+        {
+          "type": "ImportSpecifier",
+          "start": 72,
+          "end": 88,
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 9
+            },
+            "end": {
+              "line": 2,
+              "column": 25
+            }
+          },
+          "imported": {
+            "type": "Identifier",
+            "start": 72,
+            "end": 88,
+            "loc": {
+              "start": {
+                "line": 2,
+                "column": 9
+              },
+              "end": {
+                "line": 2,
+                "column": 25
+              }
+            },
+            "name": "routerMiddleware"
+          },
+          "local": {
+            "type": "Identifier",
+            "start": 72,
+            "end": 88,
+            "loc": {
+              "start": {
+                "line": 2,
+                "column": 9
+              },
+              "end": {
+                "line": 2,
+                "column": 25
+              }
+            },
+            "name": "routerMiddleware"
+          }
+        }
+      ],
+      "importKind": "value",
+      "source": {
+        "type": "Literal",
+        "start": 96,
+        "end": 116,
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 33
+          },
+          "end": {
+            "line": 2,
+            "column": 53
+          }
+        },
+        "value": "react-router-redux",
+        "rawValue": "react-router-redux",
+        "raw": "'react-router-redux'"
+      }
+    },
+    {
+      "type": "ImportDeclaration",
+      "start": 118,
+      "end": 156,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 0
+        },
+        "end": {
+          "line": 3,
+          "column": 38
+        }
+      },
+      "specifiers": [
+        {
+          "type": "ImportDefaultSpecifier",
+          "start": 125,
+          "end": 136,
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 7
+            },
+            "end": {
+              "line": 3,
+              "column": 18
+            }
+          },
+          "local": {
+            "type": "Identifier",
+            "start": 125,
+            "end": 136,
+            "loc": {
+              "start": {
+                "line": 3,
+                "column": 7
+              },
+              "end": {
+                "line": 3,
+                "column": 18
+              }
+            },
+            "name": "rootReducer"
+          }
+        }
+      ],
+      "importKind": "value",
+      "source": {
+        "type": "Literal",
+        "start": 142,
+        "end": 155,
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 24
+          },
+          "end": {
+            "line": 3,
+            "column": 37
+          }
+        },
+        "value": "../reducers",
+        "rawValue": "../reducers",
+        "raw": "'../reducers'"
+      }
+    },
+    {
+      "type": "ImportDeclaration",
+      "start": 157,
+      "end": 232,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 0
+        },
+        "end": {
+          "line": 4,
+          "column": 75
+        }
+      },
+      "specifiers": [
+        {
+          "type": "ImportDefaultSpecifier",
+          "start": 164,
+          "end": 192,
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 7
+            },
+            "end": {
+              "line": 4,
+              "column": 35
+            }
+          },
+          "local": {
+            "type": "Identifier",
+            "start": 164,
+            "end": 192,
+            "loc": {
+              "start": {
+                "line": 4,
+                "column": 7
+              },
+              "end": {
+                "line": 4,
+                "column": 35
+              }
+            },
+            "name": "reduxImmutableStateInvariant"
+          }
+        }
+      ],
+      "importKind": "value",
+      "source": {
+        "type": "Literal",
+        "start": 198,
+        "end": 231,
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 41
+          },
+          "end": {
+            "line": 4,
+            "column": 74
+          }
+        },
+        "value": "redux-immutable-state-invariant",
+        "rawValue": "redux-immutable-state-invariant",
+        "raw": "'redux-immutable-state-invariant'"
+      }
+    },
+    {
+      "type": "ImportDeclaration",
+      "start": 233,
+      "end": 265,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 0
+        },
+        "end": {
+          "line": 5,
+          "column": 32
+        }
+      },
+      "specifiers": [
+        {
+          "type": "ImportDefaultSpecifier",
+          "start": 240,
+          "end": 245,
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 7
+            },
+            "end": {
+              "line": 5,
+              "column": 12
+            }
+          },
+          "local": {
+            "type": "Identifier",
+            "start": 240,
+            "end": 245,
+            "loc": {
+              "start": {
+                "line": 5,
+                "column": 7
+              },
+              "end": {
+                "line": 5,
+                "column": 12
+              }
+            },
+            "name": "thunk"
+          }
+        }
+      ],
+      "importKind": "value",
+      "source": {
+        "type": "Literal",
+        "start": 251,
+        "end": 264,
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 18
+          },
+          "end": {
+            "line": 5,
+            "column": 31
+          }
+        },
+        "value": "redux-thunk",
+        "rawValue": "redux-thunk",
+        "raw": "'redux-thunk'"
+      }
+    },
+    {
+      "type": "ImportDeclaration",
+      "start": 266,
+      "end": 312,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 0
+        },
+        "end": {
+          "line": 6,
+          "column": 46
+        }
+      },
+      "specifiers": [
+        {
+          "type": "ImportSpecifier",
+          "start": 275,
+          "end": 289,
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 9
+            },
+            "end": {
+              "line": 6,
+              "column": 23
+            }
+          },
+          "imported": {
+            "type": "Identifier",
+            "start": 275,
+            "end": 289,
+            "loc": {
+              "start": {
+                "line": 6,
+                "column": 9
+              },
+              "end": {
+                "line": 6,
+                "column": 23
+              }
+            },
+            "name": "browserHistory"
+          },
+          "local": {
+            "type": "Identifier",
+            "start": 275,
+            "end": 289,
+            "loc": {
+              "start": {
+                "line": 6,
+                "column": 9
+              },
+              "end": {
+                "line": 6,
+                "column": 23
+              }
+            },
+            "name": "browserHistory"
+          }
+        }
+      ],
+      "importKind": "value",
+      "source": {
+        "type": "Literal",
+        "start": 297,
+        "end": 311,
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 31
+          },
+          "end": {
+            "line": 6,
+            "column": 45
+          }
+        },
+        "value": "react-router",
+        "rawValue": "react-router",
+        "raw": "\"react-router\""
+      }
+    },
+    {
+      "type": "ExportDefaultDeclaration",
+      "start": 314,
+      "end": 616,
+      "loc": {
+        "start": {
+          "line": 8,
+          "column": 0
+        },
+        "end": {
+          "line": 17,
+          "column": 1
+        }
+      },
+      "declaration": {
+        "type": "FunctionDeclaration",
+        "start": 329,
+        "end": 616,
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 15
+          },
+          "end": {
+            "line": 17,
+            "column": 1
+          }
+        },
+        "id": {
+          "type": "Identifier",
+          "start": 338,
+          "end": 352,
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 24
+            },
+            "end": {
+              "line": 8,
+              "column": 38
+            }
+          },
+          "name": "configureStore"
+        },
+        "generator": false,
+        "expression": false,
+        "async": false,
+        "params": [
+          {
+            "type": "Identifier",
+            "start": 353,
+            "end": 365,
+            "loc": {
+              "start": {
+                "line": 8,
+                "column": 39
+              },
+              "end": {
+                "line": 8,
+                "column": 51
+              }
+            },
+            "name": "initialState"
+          }
+        ],
+        "body": {
+          "type": "BlockStatement",
+          "start": 367,
+          "end": 616,
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 53
+            },
+            "end": {
+              "line": 17,
+              "column": 1
+            }
+          },
+          "body": [
+            {
+              "type": "ReturnStatement",
+              "start": 371,
+              "end": 614,
+              "loc": {
+                "start": {
+                  "line": 9,
+                  "column": 2
+                },
+                "end": {
+                  "line": 16,
+                  "column": 4
+                }
+              },
+              "argument": {
+                "type": "CallExpression",
+                "start": 378,
+                "end": 613,
+                "loc": {
+                  "start": {
+                    "line": 9,
+                    "column": 9
+                  },
+                  "end": {
+                    "line": 16,
+                    "column": 3
+                  }
+                },
+                "callee": {
+                  "type": "Identifier",
+                  "start": 378,
+                  "end": 389,
+                  "loc": {
+                    "start": {
+                      "line": 9,
+                      "column": 9
+                    },
+                    "end": {
+                      "line": 9,
+                      "column": 20
+                    }
+                  },
+                  "name": "createStore"
+                },
+                "arguments": [
+                  {
+                    "type": "Identifier",
+                    "start": 395,
+                    "end": 406,
+                    "loc": {
+                      "start": {
+                        "line": 10,
+                        "column": 4
+                      },
+                      "end": {
+                        "line": 10,
+                        "column": 15
+                      }
+                    },
+                    "name": "rootReducer"
+                  },
+                  {
+                    "type": "Identifier",
+                    "start": 412,
+                    "end": 424,
+                    "loc": {
+                      "start": {
+                        "line": 11,
+                        "column": 4
+                      },
+                      "end": {
+                        "line": 11,
+                        "column": 16
+                      }
+                    },
+                    "name": "initialState"
+                  },
+                  {
+                    "type": "CallExpression",
+                    "start": 430,
+                    "end": 609,
+                    "loc": {
+                      "start": {
+                        "line": 12,
+                        "column": 4
+                      },
+                      "end": {
+                        "line": 15,
+                        "column": 5
+                      }
+                    },
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 430,
+                      "end": 437,
+                      "loc": {
+                        "start": {
+                          "line": 12,
+                          "column": 4
+                        },
+                        "end": {
+                          "line": 12,
+                          "column": 11
+                        }
+                      },
+                      "name": "compose"
+                    },
+                    "arguments": [
+                      {
+                        "type": "CallExpression",
+                        "start": 445,
+                        "end": 533,
+                        "loc": {
+                          "start": {
+                            "line": 13,
+                            "column": 6
+                          },
+                          "end": {
+                            "line": 13,
+                            "column": 94
+                          }
+                        },
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 445,
+                          "end": 460,
+                          "loc": {
+                            "start": {
+                              "line": 13,
+                              "column": 6
+                            },
+                            "end": {
+                              "line": 13,
+                              "column": 21
+                            }
+                          },
+                          "name": "applyMiddleware"
+                        },
+                        "arguments": [
+                          {
+                            "type": "Identifier",
+                            "start": 461,
+                            "end": 466,
+                            "loc": {
+                              "start": {
+                                "line": 13,
+                                "column": 22
+                              },
+                              "end": {
+                                "line": 13,
+                                "column": 27
+                              }
+                            },
+                            "name": "thunk"
+                          },
+                          {
+                            "type": "CallExpression",
+                            "start": 468,
+                            "end": 498,
+                            "loc": {
+                              "start": {
+                                "line": 13,
+                                "column": 29
+                              },
+                              "end": {
+                                "line": 13,
+                                "column": 59
+                              }
+                            },
+                            "callee": {
+                              "type": "Identifier",
+                              "start": 468,
+                              "end": 496,
+                              "loc": {
+                                "start": {
+                                  "line": 13,
+                                  "column": 29
+                                },
+                                "end": {
+                                  "line": 13,
+                                  "column": 57
+                                }
+                              },
+                              "name": "reduxImmutableStateInvariant"
+                            },
+                            "arguments": []
+                          },
+                          {
+                            "type": "CallExpression",
+                            "start": 500,
+                            "end": 532,
+                            "loc": {
+                              "start": {
+                                "line": 13,
+                                "column": 61
+                              },
+                              "end": {
+                                "line": 13,
+                                "column": 93
+                              }
+                            },
+                            "callee": {
+                              "type": "Identifier",
+                              "start": 500,
+                              "end": 516,
+                              "loc": {
+                                "start": {
+                                  "line": 13,
+                                  "column": 61
+                                },
+                                "end": {
+                                  "line": 13,
+                                  "column": 77
+                                }
+                              },
+                              "name": "routerMiddleware"
+                            },
+                            "arguments": [
+                              {
+                                "type": "Identifier",
+                                "start": 517,
+                                "end": 531,
+                                "loc": {
+                                  "start": {
+                                    "line": 13,
+                                    "column": 78
+                                  },
+                                  "end": {
+                                    "line": 13,
+                                    "column": 92
+                                  }
+                                },
+                                "name": "browserHistory"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "ConditionalExpression",
+                        "start": 541,
+                        "end": 603,
+                        "loc": {
+                          "start": {
+                            "line": 14,
+                            "column": 6
+                          },
+                          "end": {
+                            "line": 14,
+                            "column": 68
+                          }
+                        },
+                        "test": {
+                          "type": "MemberExpression",
+                          "start": 541,
+                          "end": 565,
+                          "loc": {
+                            "start": {
+                              "line": 14,
+                              "column": 6
+                            },
+                            "end": {
+                              "line": 14,
+                              "column": 30
+                            }
+                          },
+                          "object": {
+                            "type": "Identifier",
+                            "start": 541,
+                            "end": 547,
+                            "loc": {
+                              "start": {
+                                "line": 14,
+                                "column": 6
+                              },
+                              "end": {
+                                "line": 14,
+                                "column": 12
+                              }
+                            },
+                            "name": "window"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 548,
+                            "end": 565,
+                            "loc": {
+                              "start": {
+                                "line": 14,
+                                "column": 13
+                              },
+                              "end": {
+                                "line": 14,
+                                "column": 30
+                              }
+                            },
+                            "name": "devToolsExtension"
+                          },
+                          "computed": false
+                        },
+                        "consequent": {
+                          "type": "CallExpression",
+                          "start": 568,
+                          "end": 594,
+                          "loc": {
+                            "start": {
+                              "line": 14,
+                              "column": 33
+                            },
+                            "end": {
+                              "line": 14,
+                              "column": 59
+                            }
+                          },
+                          "callee": {
+                            "type": "MemberExpression",
+                            "start": 568,
+                            "end": 592,
+                            "loc": {
+                              "start": {
+                                "line": 14,
+                                "column": 33
+                              },
+                              "end": {
+                                "line": 14,
+                                "column": 57
+                              }
+                            },
+                            "object": {
+                              "type": "Identifier",
+                              "start": 568,
+                              "end": 574,
+                              "loc": {
+                                "start": {
+                                  "line": 14,
+                                  "column": 33
+                                },
+                                "end": {
+                                  "line": 14,
+                                  "column": 39
+                                }
+                              },
+                              "name": "window"
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 575,
+                              "end": 592,
+                              "loc": {
+                                "start": {
+                                  "line": 14,
+                                  "column": 40
+                                },
+                                "end": {
+                                  "line": 14,
+                                  "column": 57
+                                }
+                              },
+                              "name": "devToolsExtension"
+                            },
+                            "computed": false
+                          },
+                          "arguments": []
+                        },
+                        "alternate": {
+                          "type": "ArrowFunctionExpression",
+                          "start": 597,
+                          "end": 603,
+                          "loc": {
+                            "start": {
+                              "line": 14,
+                              "column": 62
+                            },
+                            "end": {
+                              "line": 14,
+                              "column": 68
+                            }
+                          },
+                          "id": null,
+                          "generator": false,
+                          "expression": true,
+                          "async": false,
+                          "params": [
+                            {
+                              "type": "Identifier",
+                              "start": 597,
+                              "end": 598,
+                              "loc": {
+                                "start": {
+                                  "line": 14,
+                                  "column": 62
+                                },
+                                "end": {
+                                  "line": 14,
+                                  "column": 63
+                                }
+                              },
+                              "name": "f"
+                            }
+                          ],
+                          "body": {
+                            "type": "Identifier",
+                            "start": 602,
+                            "end": 603,
+                            "loc": {
+                              "start": {
+                                "line": 14,
+                                "column": 67
+                              },
+                              "end": {
+                                "line": 14,
+                                "column": 68
+                              }
+                            },
+                            "name": "f"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "leadingComments": [],
+        "trailingComments": []
+      }
+    }
+  ]
+}
