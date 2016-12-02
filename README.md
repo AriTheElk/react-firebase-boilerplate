@@ -41,12 +41,33 @@ The React Firebase Boilerplate was originally based on the [react-hot-redux-fire
     - [X] Beautiful notification system via `react-notification`.
     - [X] Protected routes (requires login)
 
-## Usage
+## Usage Guide
+
+### Boilerplate Setup
 
 ```
 git clone https://github.com/jsbros/react-firebase-boilerplate
 cd react-firebase-boilerplate
 npm install
+```
+
+### Firebase setup
+
+1. Create a Firebase project in the [Firebase console](https://console.firebase.google.com/), if you don't already have one.
+  - If you already have an existing Google project associated with your app, click `Import Google Project`. Otherwise, click `Create New Project`.
+  - If you already have a Firebase project, click `Add App` from the project overview page.
+2. Click `Add Firebase to your web app`.
+3. Copy all the values keys in the `config` object over to the [config/firebase.js](config/firebase.js) file.
+4.  [Register your app](https://github.com/settings/applications/new) as a developer application on GitHub and get your app's OAuth 2.0 Client ID and Client Secret.
+5. Enable GitHub authentication:
+  1. In the [Firebase console](https://console.firebase.google.com/), open the `Auth` section.
+  2. On the `Sign in method` tab, enable the `GitHub` sign-in method and specify the OAuth 2.0 `Client ID` and `Client Secret` you got from GitHub.
+  3. Then, make sure your Firebase `OAuth redirect URI` (e.g. `my-app-12345.firebaseapp.com/__/auth/handler`) is set as your `Authorization callback URL` in your app's settings page on your [GitHub app's config](https://github.com/settings/developers).
+
+
+### Usage
+
+```
 npm start
 ```
 
