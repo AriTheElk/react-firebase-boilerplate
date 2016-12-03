@@ -82,3 +82,17 @@ npm start
 ## Roadmap
 
 Check our [roadmap issues](https://github.com/jsbros/react-firebase-boilerplate/issues?q=is%3Aissue+is%3Aopen+label%3Aroadmap)
+
+## Contributing
+
+### Code Linting
+
+All code must pass the linter 100% before getting merged into the master repo. It's highly recommended to install an eslint extension into your code editor/IDE. You can also run the linter from the command line using
+
+```
+npm run lint
+```
+
+### Commit Styles
+
+All commit messages must follow the [Semantic Commit Message](https://seesparkbox.com/foundry/semantic_commit_messages) guidelines.
