@@ -96,3 +96,11 @@ npm run lint
 ### Commit Styles
 
 All commit messages must follow the [Semantic Commit Message](https://seesparkbox.com/foundry/semantic_commit_messages) guidelines.
+
+## Author
+
+🔥 [Garet McKinley](https://twitter.com/garetmckinley)
+
+## License
+
+The React Firebase Boilerplate is under the [MIT License](LICENSE)
