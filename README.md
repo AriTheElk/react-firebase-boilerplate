@@ -29,6 +29,8 @@ The React Firebase Boilerplate was originally based on the [react-hot-redux-fire
   - [X] Eslint `3.11.1`
 - Styles
   - [X] Styled Components `1.1.2`
+- Extras
+  - [X] Emojione `2.2.6`
 - Testing
   - [ ] Mocha `2.5.3`
   - [ ] Enzyme `2.3.0`
@@ -40,8 +42,10 @@ The React Firebase Boilerplate was originally based on the [react-hot-redux-fire
   - Auth
     - [X] Authentication setup (Registration/Login with GitHub—other providers easil added)
     - [X] state.user sync with Firebase Auth
-    - [X] Beautiful notification system via `react-notification`.
     - [X] Protected routes (requires login)
+- Beautiful notification system via `react-notification`.
+- Cross browser emoji support via `emojione`.
+
 
 ## Usage Guide
 
