@@ -20,8 +20,8 @@ import App from './containers/App';
 import initialState from './reducers/initialState';
 import configureStore from './store/configure'; //eslint-disable-line import/default
 
-// styles
-import './styles/styles.css'; //Webpack can import CSS files too!
+// Styles
+import global from './styles/global';
 
 // store initialization
 export const store = configureStore(initialState);
